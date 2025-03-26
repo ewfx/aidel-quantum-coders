@@ -61,17 +61,17 @@ LocalAPI testing: Postman
 
 
 ## 🏃 How to Run
-1. Clone the repository  
+
+1. Install dependencies  
    ```sh
-   git clone https://github.com/your-repo.git
+   pip install fastapi uvicorn requests pandas numpy scikit-learn transformers fuzzywuzzy spacy
+   python -m spacy download en_core_web_sm
+
    ```
-2. Install dependencies  
+2. Run the project  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
+   cd to src
+   uvicorn risk_scoring:app --reload
    ```
 
 ## 🏗️ Tech Stack
