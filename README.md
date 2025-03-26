@@ -14,7 +14,9 @@
 ---
 
 ## 🎯 Introduction
-This project targets AI Driven Entity Risk Analysis using GPT 3.5 Model for fetching the entity and risk categories to generate a risk score between 0-5.
+This project targets AI Driven Entity Risk Analysis. 
+
+The system processes financial transaction text, extracts entities, classifies them, assigns a risk score, and provides supporting evidence.
 
 The purpose is to determine high risk transactions and flag then by publishing a risk score.
 
@@ -29,13 +31,34 @@ The purpose is to determine high risk transactions and flag then by publishing a
 What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+Summary of the Flow
+
+✅ Input: Raw transaction text
+
+✅ Step 1: Extract named entities (spaCy + Hugging Face)
+
+✅ Step 2: Classify entities using IRS, SEC, OFAC, Wikidata
+
+✅ Step 3: Assign a risk score
+
+✅ Step 4: Generate supporting evidence
+
+✅ Output: JSON response with entity classifications, risk scores & evidence.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Technology: Python
+
+Model used for entity extraction: spaCY + Hugging face
+
+LocalAPI testing: Postman
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+
+1. Obtaining the data in order to classify the entities to right entity type. Most of the data didn't have workable APIs or documentation on how to use them. Had to download it and parse the CSV
+2. Extraction large multi word organisations as they used to be extracted as individual words and not recognised
+3. Grouping of multiple company names that we close in the input data
+
+
 
 ## 🏃 How to Run
 1. Clone the repository  
@@ -52,14 +75,13 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: NA
 - 🔹 Backend: Python
-- 🔹 Database: 
-- 🔹 Other: OpenAI API
+- 🔹 Models: spaCY, Hugging Face
+- 🔹 Other: FastAPI, Postman
 
 ## 👥 Team
-- **Subhransu Panda* - [GitHub](#) | [LinkedIn](#)
-- **Hanumanthiah P** - [GitHub](#) | [LinkedIn](#)
- - **Chethana ** - [GitHub](#) | [LinkedIn](#)
-- **Purushotham** - [GitHub](#) | [LinkedIn](#)
-- - **Shashank M** - [GitHub](#) | [LinkedIn](#)
+- **Subhransu Panda** - [GitHub](#) 
+- **Hanumanthiah P** - [GitHub](#) 
+- **Chethana** - [GitHub](#) 
+- **Purushotham** - [GitHub](#) 
+- **Shashank M** - [GitHub](#) 
