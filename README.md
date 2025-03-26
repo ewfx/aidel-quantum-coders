@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 AI Driven Entity Intelligence Risk Analysis
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,9 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+This project targets AI Driven Entity Risk Analysis using GPT 3.5 Model for fetching the entity and risk categories to generate a risk score between 0-5.
+
+The purpose is to determine high risk transactions and flag then by publishing a risk score.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -50,10 +52,10 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: NA
+- 🔹 Backend: Python
+- 🔹 Database: 
+- 🔹 Other: OpenAI API
 
 ## 👥 Team
 - **Subhransu Panda* - [GitHub](#) | [LinkedIn](#)
