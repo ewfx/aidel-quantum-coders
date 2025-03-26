@@ -27,6 +27,8 @@ The purpose is to determine high risk transactions and flag then by publishing a
 
 ![Screenshot 1](link-to-image)
 
+Screenshots attached in artifacts/demo
+
 ## 💡 Inspiration
 What inspired you to create this project? Describe the problem you're solving.
 
