@@ -319,7 +319,7 @@ def detect_anomalies(features):
     model = IsolationForest(contamination=0.05, random_state=42)
     return model.fit_predict(features)
 
-def assign_risk_score(entity_name, enriched_data, ofac_flag, cik):
+def assign_risk_score(entity_name, enriched_data, ofac_flag, cik, gov, ngo):
     """ Calculate risk score based on entity details and external data. """
     if isinstance(cik, int) or (isinstance(cik, str) and cik.isdigit()):
         cik_present = True  # CIK is a valid number
@@ -330,14 +330,12 @@ def assign_risk_score(entity_name, enriched_data, ofac_flag, cik):
     
     if ofac_flag:
         score += 40
-    if not cik_present:
+    elif not cik_present:
         score += 15
-    if enriched_data:
-        company_details = enriched_data[0].get("company", {})
-        if company_details.get("status") in ["inactive", "dissolved"]:
-            score += 20  
-        if not company_details.get("officers"):
-            score += 10  
+    if not (ngo or gov or cik_present):
+        score += 15
+    
+    
     return min(score, 100)
     
     
@@ -367,15 +365,17 @@ def generate_evidence(entity_name, enriched_data, ofac_flag, cik_present, gov, n
     if ofac_flag:
         evidence.append("OFAC Sanctions List");
         supportingEvidence.append(f"Entity {entity_name} is on the OFAC sanctions list.")
-    elif (cik_present):
+
+    if (cik_present):
         evidence.append("SEC Edgar Filings")
-        #supportingEvidence.append(f"SEC filings found for {entity_name}.")
+        supportingEvidence.append(f"SEC filings found for {entity_name}.")
     elif (not cik_present):
         supportingEvidence.append(f"SEC filings not found for {entity_name}.")
-    elif(gov):
+
+    if(gov):
         evidence.append("WikiData for Govenement organisation")
         supportingEvidence.append(f"{entity_name} is a Govenement organisation according to Wikidata.")
-    elif(non_profit) :
+    if(non_profit) :
         evidence.append("IRS Non Profit Oraganisations data")
         supportingEvidence.append(f"{entity_name} is a non profit oragnisation ccording to IRS data.")
 
@@ -449,28 +449,21 @@ async def process_entities(request: EntityRequest):
             entity_type.append("Non profit organisation")
         #is_anomalous = bool(anomaly_predictions[i] == -1)
         
-        risk_score = assign_risk_score(entity, enriched_data, ofac_flag, cik)
+        risk_score = assign_risk_score(entity, enriched_data, ofac_flag, cik, gov, non_profit)
         riskScores.append(risk_score)
         #evidence = generate_evidence(entity, enriched_data, ofac_flag, sec_filings, is_anomalous)
         generate_evidence(entity, enriched_data, ofac_flag, cik_present, gov, non_profit, evidences, supportingEvidence)
 
-        # results.append({
-        #     "entity": entity,
-        #     "risk_score": risk_score,
-        #     "confidence_score": round(1 - (risk_score / 100), 2),
-        #     "is_anomalous": is_anomalous,
-        #     "evidence": evidence,
-        #     "supportingEvidence": {
-        #         "SEC Edgar": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}" if cik else "Not Found",
-        #         "OFAC Sanctions": "https://sanctionssearch.ofac.treas.gov/" if ofac_flag else "Not Listed"
-        #     }
+    final_risk = sum(riskScores) / len(riskScores)
+
+    
     results.append({
         "Transaction ID": transaction_id,
         "Extracted Entity": extractedEntity,
         "Entity Type": entity_type,
-        "Risk Score": riskScores,
+        "Risk Score": final_risk,
         "Supporting Evidence": evidences,
-        "Confidence Score": round(1 - (risk_score / 100), 2),
+        "Confidence Score": round(1 - (final_risk / 100), 2),
         "Reason": supportingEvidence
     })
 
