@@ -1,0 +1,205 @@
+
+
+000587764|Iglesia Bethesda Inc.|Lowell|MA|United States|PC
+000635913|Ministerio Apostolico Jesucristo Es El Senor Inc.|Lawrence|MA|United States|PC
+000765634|Mercy Chapel International|Mattapan|MA|United States|PC
+000841363|Agape House of Prayer|Mattapan|MA|United States|PC
+000852649|Bethany Presbyterian Church|Brookline|MA|United States|PC
+000889899|Academic and Behavioral Clinic Inc.|Boston|MA|United States|PC
+001347537|Restoration of Hope Church Ministries|Roxbury|MA|United States|PC
+002030711|Church of Our Lord Jesus Christ of Macedonia|Newark|NJ|United States|PC
+002067446|Usta National Junior Tennis League Inc.|White Plains|NY|United States|POF
+002237333|Lincoln Loan Fund|Fayetteville|AR|United States|SOUNK
+002293921|Lockman Foundation|La Habra|CA|United States|PC
+002296179|Religious Science Church Center of San Diego|San Diego|CA|United States|PC
+002296211|Assistance League of Ventura County|Ventura|CA|United States|PC
+007764840|Tri-County Lighthouse Baptist Church & Ministries Inc.|Deerfield St.|NJ|United States|PC
+010002847|Hulls Cove Neighborhood Association|Mount Desert|ME|United States|PC
+010011694|Massachusetts Moderators Association Inc.|Haverhill|MA|United States|PC
+010015091|Hanover Soccer Club Inc.|Cedar Knolls|NJ|United States|PC
+010017496|Agamenticus Yacht Club of York|York Harbor|ME|United States|PC
+010019705|Ancient Free & Accepted Masons of Maine Grand Lodge|Holden|ME|United States|EO,GROUP,LODGE
+010019709|Ancient Free & Accepted Masons of Maine|Houlton|ME|United States|EO,LODGE
+010024155|Bangor Band|Bangor|ME|United States|PC
+010024645|Bangor Symphony Orchestra|Bangor|ME|United States|PC
+010024907|Bar Harbor Village Improvement Association|Bar Harbor|ME|United States|POF
+010028850|Berwick Cemetery Association Inc.|Berwick|ME|United States|EO
+010060379|Healing and Deliverance Ministry Inc.|Clarksburg|MD|United States|PC
+010085716|Hancock County Agricultural Society|Blue Hill|ME|United States|PC
+010092600|Hope Cemetery Corporation|Kennebunk|ME|United States|EO
+010095329|Improved Order of Redmen of Maine|Sebago|ME|United States|EO,GROUP,LODGE
+010102346|Knights of Pythias of Maine Grand Lodge|Otis|ME|United States|EO,GROUP,LODGE
+010104905|Laurel Hill Cemetery Association|Saco|ME|United States|EO
+010104976|Saint Andrew Church|Los Alamitos|CA|United States|PC
+010114721|Mechanic Falls Maple Grove Cemetery Inc.|Norway|ME|United States|EO
+010124810|Mt. Hope Cemetery Corp|Bangor|ME|United States|EO
+010124841|Mt. Pleasant Cemetery Corp|S Portland|ME|United States|EO
+010130065|North Auburn Cemetery Association Inc.|Auburn|ME|United States|EO
+010130427|Bridgton Hospital|Bridgton|ME|United States|PC
+010130865|Norway Pine Grove Cemetery Corp|Norway|ME|United States|EO
+010131335|Oak Grove Cemetery Asso|Gardiner|ME|United States|EO
+010131950|Plant Memorial Home|Bath|ME|United States|POF
+010132610|Orchard Grove Cemetery Association|Kittery|ME|United States|EO
+010132625|Order of the Eastern Star of Maine|Madison|ME|United States|EO,GROUP,LODGE
+010133442|Oxford County Agricultural Society|Norway|ME|United States|PC
+010140283|Pine Grove Cemetery Association|Brunswick|ME|United States|EO
+010140290|Pine Grove Cemetery Corp|Falmouth|ME|United States|EO
+010142590|The Portland Club|Portland|ME|United States|PC
+010145133|Prouts Neck Association|Scarborough|ME|United States|PC
+010147000|Rangeley Library Association|Rangeley|ME|United States|PC
+010149981|Riverside Cemetery Association of Brunswick Maine|Brunswick|ME|United States|EO
+010153128|Greater Rumford Community Center|Rumford|ME|United States|PC
+010174648|Order of the Eastern Star of New Hampshire Grand Chapter|Nashua|NH|United States|EO,GROUP,LODGE
+010180531|West Oxford Agricultural Society|Fryeburg|ME|United States|PC
+010180687|Windsor Improvement Corporation|Windsor|VT|United States|PC
+010186800|Young Mens Christian Association State of Maine|Winthrop|ME|United States|PC
+010187940|Rockland Cemetery Association|Rockland|ME|United States|EO
+010191550|Northern Maine Fair Association|Presque Isle|ME|United States|PC
+010191822|Department of Maine Veterans of Foreign Wars of the United States|Rumford|ME|United States|EO,GROUP
+010191953|Cumberland Cemetery Association|Cumberland|ME|United States|EO
+010196359|Iris Network|Portland|ME|United States|PC
+010198331|Maine Coast Regional Health Facili Dba Northern Light Maine Coast Hos|Brewer|ME|United States|PC
+010199433|The Portland Players Inc.|S Portland|ME|United States|PC
+010199596|Womens Board of the Maine Medical Center|Portland|ME|United States|SOUNK
+010202467|Mount Desert Island Biological Laboratory|Salsbury Cove|ME|United States|PC
+010205005|Martin-Klein American Legion Post 133|Fort Kent|ME|United States|EO
+010205019|Riverside Cemetery Corporation|Ft Fairfield|ME|United States|EO
+010205722|Brookside Cemetery Association Inc.|Mount Desert|ME|United States|EO
+010207022|Fairmount Cemetery Assoc|Presque Isle|ME|United States|EO
+010207025|Green Lawn Rest Association|Clinton|ME|United States|EO
+010207716|Victoria Mansion|Portland|ME|United States|PC
+010211476|The Chapman House|Auburn|ME|United States|PC
+010211478|Heart of Maine United Way|Bangor|ME|United States|PC
+010211481|Bangor Childrens Home|Bangor|ME|United States|PC
+010211483|Community Health and Counseling Services|Bangor|ME|United States|PC
+010211484|Bangor Theological Seminary|Portland|ME|United States|POF
+010211485|Bangor Young Mens Christian Association|Bangor|ME|United States|PC
+010211486|Mt. Desert Island YMCA|Bar Harbor|ME|United States|PC
+010211487|Bible Society of Maine|Westbrook|ME|United States|PC
+010211488|Trustees of Bloomfield Academy|Skowhegan|ME|United States|PC
+010211494|Central Maine Medical Center|Lewiston|ME|United States|PC
+010211497|President & Trustees of Colby College|Waterville|ME|United States|PC
+010211500|Dyer Library Association|Saco|ME|United States|PC
+010211502|Eastport Public Library Association|Eastport|ME|United States|PC
+010211504|Eunice Frye Home|Portland|ME|United States|PF
+010211505|The Trustees of Fryeburg Academy|Fryeburg|ME|United States|PC
+010211507|Good Samaritan Agency|Bangor|ME|United States|PC
+010211508|Good Will Home Association|Hinckley|ME|United States|PC
+010211509|Gould Academy|Bethel|ME|United States|PC
+010211512|Home for the Aged|Portland|ME|United States|PC
+010211513|Jackson Laboratory|Bar Harbor|ME|United States|PC
+010211515|Jewish Community Council of Bangor|Bangor|ME|United States|PC
+010211517|Cedars Nursing Care Center Inc.|Portland|ME|United States|PC
+010211526|Maine Council of Churches|Portland|ME|United States|PC
+010211530|Maine Historical Society|Portland|ME|United States|PC
+010211532|Kents Hill School|Kents Hill|ME|United States|PC
+010211533|McArthur Library Association|Biddeford|ME|United States|PC
+010211534|Mercy Hospital|Brewer|ME|United States|PC
+010211536|North Yarmouth Academy|Yarmouth|ME|United States|PC
+010211537|Oak Grove School|E Vassalboro|ME|United States|PF
+010211538|Camp O-At-Ka Inc.|Sebago|ME|United States|PC
+010211539|Patten Free Library|Bath|ME|United States|PC
+010211542|Catherine Morrill Day Nursery|Portland|ME|United States|PC
+010211543|Boys & Girls Clubs of Southern Maine|Portland|ME|United States|PC
+010211545|Portland Seamens Friend Society|Windham|ME|United States|POF
+010211546|Community Health & Nursing Services|Brunswick|ME|United States|PC
+010211547|Redington Memorial Home|Skowhegan|ME|United States|PF
+010211548|Redington Memorial Hospital Association|Skowhegan|ME|United States|SOUNK
+010211551|St. Marys Regional Medical Center|Lewiston|ME|United States|PC
+010211557|Scot-Webb Memorial Medical Center|Palmyra|ME|United States|PC
+010211564|United Way of Androscoggin County Inc.|Lewiston|ME|United States|PC
+010211565|Waynflete School|Portland|ME|United States|PC
+010211567|Young Mens Christian Association Auburn-Lewiston Maine|Auburn|ME|United States|PC
+010211568|Young Mens Christian Association of Southern Maine|Portland|ME|United States|PC
+010211569|YWCA of Mount Desert Island|Bar Harbor|ME|United States|PC
+010211570|YWCA Central Maine|Lewiston|ME|United States|PC
+010211777|Abbe Museum|Bar Harbor|ME|United States|PC
+010211781|President and Trustees of Bates College|Lewiston|ME|United States|PC
+010211784|Ketcha Outdoors|Scarborough|ME|United States|PC
+010211791|Seventy-Five State Street|Portland|ME|United States|PC
+010211792|Lewiston-Auburn Childrens Home|Lewiston|ME|United States|PF
+010211797|Mount Desert Island Hospital|Bar Harbor|ME|United States|PC
+010211798|Mount Desert Nursing Association|Ne Harbor|ME|United States|PC
+010211803|Plummer Memorial Hospital|Dexter|ME|United States|PF
+010211807|Sweetser|Saco|ME|United States|PC
+010211810|University of New England|Biddeford|ME|United States|PC
+010211811|Kennebec Valley YMCA|Augusta|ME|United States|PC
+010211812|Bath Area Family YMCA|Bath|ME|United States|PC
+010211813|Penobscot Bay YMCA|Rockport|ME|United States|PC
+010211814|Young Mens Christian Association Sanford-Springvale|Sanford|ME|United States|PC
+010212434|Camden Area District Nursing Association|Camden|ME|United States|PC
+010212437|McArthur Home for Aged People Assoc|Biddeford|ME|United States|PF
+010212438|Maine Central Institute|Pittsfield|ME|United States|PC
+010212442|Pine Tree Society Inc.|Bath|ME|United States|PC
+010212444|York Hospital|York|ME|United States|PC
+010212541|Animal Refuge League of Greater Portland|Westbrook|ME|United States|PC
+010212545|Maine State Society for the Protection of Animals|South Windham|ME|United States|PC
+010212602|Blue Hill Public Library Inc.|Blue Hill|ME|United States|PC
+010213361|Rockland District Nursing Assn Inc.|Rockland|ME|United States|PC
+010213833|Longfellow Garden Club Inc.|Portland|ME|United States|PC
+010213976|Quarry Hill|Belfast|ME|United States|PC
+010213979|Eastport Memorial Hospital|Eastport|ME|United States|PC
+010213987|Wardwell Home for the Aging|Saco|ME|United States|POF
+010214017|Jesup Memorial Library|Bar Harbor|ME|United States|PC
+010214019|Ogunquit Memorial Library|Ogunquit|ME|United States|PC
+010215213|Bowdoin College|Brunswick|ME|United States|PC
+010215216|China Library Association Inc.|China Village|ME|United States|PF
+010215227|Rumford Hospital|Rumford|ME|United States|PC
+010215686|Rice Public Library|Kittery|ME|United States|PC
+010215910|Bangor Humane Society|Bangor|ME|United States|PC
+010215913|Buck Memorial Library|Bucksport|ME|United States|PC
+010215915|Hancock County Trustees of Public Reservations|Ellsworth|ME|United States|PC
+010215919|Junior League of Portland Maine Inc.|Portland|ME|United States|PC
+010216339|Frank D Hazeltine Post 43 American Legion Maine Dept|Belfast|ME|United States|EO
+010216657|Sanford Library Association|Sanford|ME|United States|PC
+010216837|Maine Seacoast Mission|Northeast Harbor|ME|United States|PC
+010216941|Seal Harbor Village Improvement Society Inc.|Seal Harbor|ME|United States|PC
+010217212|Farmington Home for Aged People Office of Pres & Trustee|Farmington|ME|United States|POF
+010217324|History House Association Inc.|Skowhegan|ME|United States|PC
+010217639|Wayfinder Schools|Camden|ME|United States|PC
+010218637|Dexter Public Health Association Inc.|Dexter|ME|United States|PC
+010219126|Lincoln Academy|Newcastle|ME|United States|PC
+010219135|Sunset Home of Waterville|Waterville|ME|United States|PF
+010219222|Franklin Ski & Outing Club Inc.|W Farmington|ME|United States|PC
+010219487|Boothbay Region District Nursing Assoc Inc.|Boothbay|ME|United States|PC
+010219828|Old Orchard Beach Free Public Library Association|Old Orchd Bch|ME|United States|PC
+010219829|Sarah Frye Home|Auburn|ME|United States|PC
+010220091|Northeast Harbor Library|Ne Harbor|ME|United States|PC
+010220430|Lincoln Home|Newcastle|ME|United States|PC
+010220759|Warren Memorial Foundation|Westbrook|ME|United States|POF
+010221126|Castine Community Hospital|Castine|ME|United States|PC
+010221132|D A Hurd Public Library Assoc|North Berwick|ME|United States|PC
+010221136|Maine Parent Teacher Association Inc.|Bethel|ME|United States|GROUP
+010221344|Bridgton Academy|N Bridgton|ME|United States|PC
+010222130|Fairview Hospital Inc.|Skowhegan|ME|United States|PC
+010222218|Hattie A & Fred C Lynam Trust 64|Concord|NH|United States|PF
+010223014|Ocean Park Association|Ocean Park|ME|United States|PC
+010223482|Millinocket Regional Hospital|Millinocket|ME|United States|PC
+010223755|Berwick Academy Trustees|South Berwick|ME|United States|PC
+010223879|Skowhegan State Fair|Skowhegan|ME|United States|PC
+010223976|Congregation Shaarey Tphiloh|Portland|ME|United States|PC
+010224532|Friend Memorial Public Library Inc.|Brooklin|ME|United States|PC
+010224627|Boothbay Harbor Memorial Library Association|Boothbay Hbr|ME|United States|PC
+010224718|Cumberland Farmers Club|Cumberland|ME|United States|PC
+010224769|Trustees of Thornton Academy|Saco|ME|United States|PC
+010224898|Hebron Academy Incorporated|Hebron|ME|United States|PC
+010226346|Deborah Lincoln House|Belfast|ME|United States|POF
+010227085|Masonic Temple Assoc|Bangor|ME|United States|EO,LODGE
+010227184|Androscoggin Home Health Services Inc.|Lewiston|ME|United States|PC
+010227195|Blue Hill Memorial Hospital Inc.|Brewer|ME|United States|PC
+010227281|William Fogg Public Library|Eliot|ME|United States|PC
+010227440|Educational Bureau|Ocean Park|ME|United States|PC
+010228262|Northeast Hearing & Speech Center Inc.|Portland|ME|United States|PC
+010228297|Skidompha Library Assoc|Damariscotta|ME|United States|PC
+010228468|Araxine Wilkins Sawyer Foundation Donald H Rose|Greene|ME|United States|POF
+010228937|Congregation Beth Israel|Bangor|ME|United States|PC
+010229448|Washington Academy|East Machias|ME|United States|PC
+010229544|Jay-Niles Memorial Library Association|North Jay|ME|United States|PC
+010230059|Mount Desert Larger Parish|Northeast Hbr|ME|United States|PC
+010230060|Somesville Library Association|Mount Desert|ME|United States|PC
+010231382|Springvale Public Library Association|Springvale|ME|United States|PC
+010234189|Northern Maine Medical Center|Fort Kent|ME|United States|PC
+010234428|Mt. Pleasant Cemetery Assoc|Eliot|ME|United States|EO
+010237244|Lee Academy|Lee|ME|United States|PC
+010237303|Riverside Cemetery Association|Lewiston|ME|United States|EO
+010237721|University of Maine Pulp and Paper Foundation|Orono|ME|United States|PC
