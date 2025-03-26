@@ -20,6 +20,3 @@ http://127.0.0.1:8000/risk_score
     "transactionDetails": "Large crypto transfer to offshore account"
 }
 
-
-
-
