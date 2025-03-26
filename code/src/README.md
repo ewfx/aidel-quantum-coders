@@ -1,3 +1,2 @@
-## Delete this file
 
-Instead place your source files here
+1. pip install fastapi uvicorn requests langchain llama-cpp-python imapclient email pandas tika pymupdf python-dotenv
