@@ -7,13 +7,19 @@ Below is a step-by-step breakdown of the flow:
 📌 **Summary of the Flow**
 
 ✅ Input: Raw transaction text
+
  ✅ Step 1: Extract named entities (spaCy + Hugging Face)
+ 
  ✅ Step 2: Classify entities using IRS, SEC, OFAC, Wikidata
+ 
  ✅ Step 3: Assign a risk score
+ 
  ✅ Step 4: Generate supporting evidence
+ 
  ✅ Output: JSON response with entity classifications, risk scores & evidence
 
 1️⃣ API Receives Transaction Text
+
 The FastAPI service receives a request containing unstructured transaction text (e.g., "Embassy of Argentina in Uruguay pays 500 million to Apple Inc.").
 
 
@@ -59,13 +65,13 @@ If an entity is listed in the SEC Ticker database, it is classified as a Corpora
 Calls get_sec_cik(entity_name) to fetch the Central Index Key (CIK).
 
 
-If a valid CIK is found → Corporation
+**If a valid CIK is found** → Corporation
 
 
 If no CIK found → Move to other checks.
 
 
-📌 Non-Profit Organization
+📌 **Non-Profit Organization**
 ✅ IRS Non-Profit Check:
 
 
@@ -75,7 +81,7 @@ Calls search_non_profit(entity_name) to check the IRS database.
 If found → Entity is classified as a Non-Profit.
 
 
-📌 Government Agency
+📌 **Government Agency**
 ✅ Wikidata Query:
 
 
@@ -85,7 +91,7 @@ Calls is_government_agency(entity_name) using SPARQL query on Wikidata.
 If found → Classified as a Government Agency.
 
 
-📌 Shell Company (High Risk)
+📌 **Shell Company (High Risk)**
 
 
 ✅ OFAC Sanctions List Check:
@@ -115,13 +121,7 @@ Risk scoring logic:
 +15 points → If the entity lacks a CIK (not SEC-listed).
 
 
-+20 points → If the company status is inactive or dissolved (via OpenCorporates).
-
-
-+10 points → If no officers/founders found in external databases.
-
-
-10 points (LOWEST RISK) → If entity is a Non-Profit.
+10 points (LOWEST RISK) → If entity is a Non-Profit or Government Organisation
 
 
 Max Score: 100 (Higher score = Greater risk).
